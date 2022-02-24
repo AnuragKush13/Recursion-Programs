@@ -12,8 +12,8 @@ int count_digit(int n){
 }
 
 int main()
-{
-   int a = count_digit(4566);
+{   int n = 45775;
+   int a = count_digit(n);
    cout<<a;
     return 0;
 }
